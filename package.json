@@ -1,0 +1,30 @@
+{
+  "name": "@toolio/cli",
+  "version": "0.1.1",
+  "description": "Build command line tools using yargs.",
+  "scripts": {
+    "test": "node bin/toolio.js"
+  },
+  "bin": {
+    "toolio": "./bin/toolio.js"
+  },
+  "keywords": [
+    "tooliojs",
+    "cli",
+    "builder",
+    "yargs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooliojs/cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tooliojs/cli/issues"
+  },
+  "homepage": "https://github.com/tooliojs/cli#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@toolio/config": "^0.2.3",
+    "yargs": "^15.3.1"
+  }
+}

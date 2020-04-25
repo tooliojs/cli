@@ -1,0 +1,8 @@
+.circleci
+.github
+.vscode
+CHANGELOG*
+CODE_OF_CONDUCT*
+CONTRIBUTING*
+node_modules
+package-lock*

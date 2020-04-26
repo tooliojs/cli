@@ -14,9 +14,9 @@ try {
         if(PLUGINS.length) PLUGINS.forEach(plugin => { yargs.command(...plugin) })
         if(COMMANDS.length) COMMANDS.forEach(command => { yargs.command(...command) })
         if(OPTIONS.length) OPTIONS.forEach(option => { yargs.option(...option) }) 
-        yargs.strictCommands(true)
-        yargs.demandCommand(1, 'You need at least one command before moving on.')
-        if(config.cli && config.cli.help) yargs.help(config.cli.help)
+        // yargs.strictCommands(true)
+        // yargs.demandCommand(1, 'You need at least one command before moving on.')
+        yargs.help(config.cli.help)
         yargs.argv
-    } else process.exit()
+    } else { console.log('error: no cli configs detected'); process.exit() }
 } catch(err) { console.error(new Error(err)); process.exit() }

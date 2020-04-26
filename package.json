@@ -1,6 +1,6 @@
 {
   "name": "@toolio/cli",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Build command line tools using yargs.",
   "scripts": {
     "test": "node bin/toolio.js"

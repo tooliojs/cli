@@ -4,7 +4,8 @@
 
 [![CircleCI](https://circleci.com/gh/tooliojs/cli.svg?style=shield)](https://circleci.com/gh/tooliojs/cli)
 [![npm (scoped)](https://img.shields.io/npm/v/@toolio/cli)](https://www.npmjs.com/package/@toolio/cli)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/tooliojs/cli/blob/master/LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/tooliojs/cli/blob/master/LICENSE.md)
+[![Chat](https://img.shields.io/badge/chat-on%20discord-blue.svg)](https://discord.gg/UuNhTFN)
 
 ## Install
 ```
